@@ -1,0 +1,11 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Current Date and time</title>
+    <script src="https://unpkg.com/htmx.org@1.9.2" integrity="sha384-L6OqL9pRWyyFU3+/bjdSri+iIphTN/bvYyM37tICVyOJkWZLpP2vGn6VUEXgzg6h" crossorigin="anonymous"></script>
+</head>
+<body>
+  <h2 hx-get="/datetime" id="myHeader" hx-swap="#myHeader" hx-trigger="load"></h2>
+</body>
+</html>
